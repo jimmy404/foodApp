@@ -7,7 +7,7 @@ import classes from "./Header.module.css";
 const Header = (props) => {
   return (
     <React.Fragment>
-      <header className={classes.Header}>
+      <header className={classes.header}>
         <h1>Food app</h1>
         <HeaderCardButton />
       </header>
